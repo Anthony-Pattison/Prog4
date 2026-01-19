@@ -1,36 +1,35 @@
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
-using UnityEngine;
 
 
 namespace NodeCanvas.Tasks.Actions {
 
-	public class PlaySound : ActionTask {
-		public AudioClip AC;
-        float timer = 0f;
-
+	public class GainCharge : ActionTask {
+        public Blackboard agentBlackboard;
+        public float Charge;
         //Use for initialization. This is called only once in the lifetime of the task.
         //Return null if init was successfull. Return an error string otherwise
         protected override string OnInit() {
-			return null;
+            agentBlackboard = agent.GetComponent<Blackboard>();
+
+            if (agentBlackboard != null)
+            {
+                return null;
+            }
+            return null;
 		}
 
 		//This is called once each time the task is enabled.
 		//Call EndAction() to mark the action as finished, either in success or failure.
 		//EndAction can be called from anywhere.
 		protected override void OnExecute() {
-			agent.GetComponent<AudioSource>().PlayOneShot(AC);
-			timer = 0;
+            agentBlackboard.SetVariableValue("currentCharge", 100f);
             EndAction(true);
-        }
+		}
 
 		//Called once per frame while the action is active.
 		protected override void OnUpdate() {
-			//timer += Time.deltaTime;
-			//if (timer > 3)
-			//{
-			//	EndAction(true);
-			//}
+			
 		}
 
 		//Called when the task is disabled.
