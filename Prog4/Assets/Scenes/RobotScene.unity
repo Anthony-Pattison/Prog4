@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"actions":[{"waitTime":{"_value":0.5},"$type":"NodeCanvas.Tasks.Actions.Wait"},{"target":1,"moveSpeed":{"_name":"moveSpeed","_targetVariableID":"9b8e7757-0514-4e7b-8c67-2b1c5bbcaeea"},"turnSpeed":{"_name":"rotateSpeed","_targetVariableID":"a3a59d12-98fa-43f6-9545-8d190392cb53"},"stoppingDistance":{"_name":"stopingDistance","_targetVariableID":"979ebcae-b0ff-446c-b2ef-119efda42080"},"$type":"NodeCanvas.Tasks.Actions.MoveAndRotateTowards"}]},"_color":{"r":0.4389347,"g":1.0,"b":0.3215686,"a":1.0},"_name":"Moving","_position":{"x":568.9877,"y":1036.546},"_comment":"Moving
+  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"actions":[{"waitTime":{"_value":0.5},"$type":"NodeCanvas.Tasks.Actions.Wait"},{"target":1,"moveSpeed":{"_name":"moveSpeed","_targetVariableID":"9b8e7757-0514-4e7b-8c67-2b1c5bbcaeea"},"turnSpeed":{"_name":"rotateSpeed","_targetVariableID":"a3a59d12-98fa-43f6-9545-8d190392cb53"},"stoppingDistance":{"_name":"stopingDistance","_targetVariableID":"979ebcae-b0ff-446c-b2ef-119efda42080"},"$type":"NodeCanvas.Tasks.Actions.MoveAndRotateTowards"}]},"_color":{"r":0.4389347,"g":1.0,"b":0.3215686,"a":1.0},"_name":"Moving","_position":{"x":569.9877,"y":1036.546},"_comment":"Moving
     and rotate to destinations","$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"$type":"NodeCanvas.Tasks.Actions.LoseCharge"}]},"_color":{"r":0.3215686,"g":0.7333333,"b":0.2352941,"a":1.0},"_name":"ReduceCharge","_position":{"x":866.0,"y":1106.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"actions":[{"waitTime":{"_value":0.5},"$type":"NodeCanvas.Tasks.Actions.Wait"},{"target":2,"moveSpeed":{"_value":5.0},"turnSpeed":{"_value":180.0},"stoppingDistance":{"_value":0.1},"$type":"NodeCanvas.Tasks.Actions.MoveAndRotateTowards"}]},"_color":{"r":0.4389347,"g":1.0,"b":0.3215686,"a":1.0},"_name":"Moving","_position":{"x":980.078,"y":1209.537},"_comment":"Moving
     and rotate to destinations","$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":1,"actions":[{"$type":"NodeCanvas.Tasks.Actions.GainCharge"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":1252.824,"y":1393.479},"$type":"NodeCanvas.StateMachines.ActionState","$id":"3"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
   _boundGraphObjectReferences:
@@ -293,7 +293,7 @@ MonoBehaviour:
     _version: 3.33
     _category: 
     _comments: 
-    _translation: {x: -376.03238, y: -873.52185}
+    _translation: {x: 110, y: -769}
     _zoomFactor: 1
   _firstActivation: 0
   _enableAction: 0
