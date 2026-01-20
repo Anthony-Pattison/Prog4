@@ -1,15 +1,12 @@
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
-using UnityEngine;
 
 
 namespace NodeCanvas.Tasks.Actions {
 
-	public class ScareAT : ActionTask {
-		public Blackboard HumansBlackboard;
-		public Transform ClosetLeft;
-        public Transform ClosetRight;
-		public BBParameter<bool> startScaring;
+	public class IncreaseScareValueAT : ActionTask {
+        public Blackboard HumansBlackboard;
+		float tempScare;
         //Use for initialization. This is called only once in the lifetime of the task.
         //Return null if init was successfull. Return an error string otherwise
         protected override string OnInit() {
@@ -20,23 +17,16 @@ namespace NodeCanvas.Tasks.Actions {
 		//Call EndAction() to mark the action as finished, either in success or failure.
 		//EndAction can be called from anywhere.
 		protected override void OnExecute() {
-           
+			tempScare = HumansBlackboard.GetVariableValue<float>("Scare");
+			tempScare += 2;
+            HumansBlackboard.SetVariableValue("Scare", tempScare);
+			EndAction();
         }
 
 		//Called once per frame while the action is active.
 		protected override void OnUpdate() {
-
-            bool isWaiting = HumansBlackboard.GetVariable<bool>("waiting").value;
-
-            if (isWaiting == true)
-            {
-                ClosetLeft.position += new Vector3(-5, 0, 0);
-                ClosetRight.position += new Vector3(5, 0, 0);
-                EndAction();
-
-            }
-            startScaring = true;
-        }
+			
+		}
 
 		//Called when the task is disabled.
 		protected override void OnStop() {
