@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f945e777233a59f4aba40aeca29093a6, type: 3}
+  m_Name: RepairBotFSM
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"ScanRadiusBBP":{"_name":"ScaneRadius","_targetVariableID":"2ed64d78-7d3f-42e6-a524-1914db2f50f0"},"lightTowerTargetBBP":{"_name":"LightTower","_targetVariableID":"ff2e1ffd-ae78-4465-8d15-bfb6e1830b25"},"ScanLayer":{"value":128},"ScanDuration":1.1,"scanColour":{"g":1.0,"b":0.02703118,"a":1.0},"numberOfScanCirclePoints":8,"$type":"NodeCanvas.Tasks.Actions.ScanAT"}]},"_transitionEvaluation":1,"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Scan","_position":{"x":501.0,"y":474.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_name":"LightTower","_targetVariableID":"ff2e1ffd-ae78-4465-8d15-bfb6e1830b25"},"speed":{"_name":"speed","_targetVariableID":"16282fc2-cd45-4894-bf7c-3310374dcd51"},"arrivalDistance":{"_name":"arrivalDistance","_targetVariableID":"c2625b0c-0b51-4daf-957f-6a209c4d079f"},"$type":"NodeCanvas.Tasks.Actions.ApproachAT"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Approach","_position":{"x":249.5466,"y":314.2714},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"LightTowerTargetBBP":{"_name":"LightTower","_targetVariableID":"ff2e1ffd-ae78-4465-8d15-bfb6e1830b25"},"scanRadiusBBP":{"_name":"ScaneRadius","_targetVariableID":"2ed64d78-7d3f-42e6-a524-1914db2f50f0"},"intialScanRadiusBBP":{"_name":"InitalScanRadius","_targetVariableID":"b7d5e991-ea93-4420-b72d-b167d31aa56e"},"$type":"NodeCanvas.Tasks.Actions.RepairAT"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Repair","_position":{"x":385.6389,"y":60.09558},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":1,"actions":[{"scanRadius":{"_name":"ScaneRadius","_targetVariableID":"2ed64d78-7d3f-42e6-a524-1914db2f50f0"},"BoostAmount":1.0,"$type":"NodeCanvas.Tasks.Actions.BoostAT"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Boost","_position":{"x":739.0488,"y":315.5029},"$type":"NodeCanvas.StateMachines.ActionState","$id":"3"}],"connections":[{"_condition":{"variable":{"_name":"LightTower","_targetVariableID":"ff2e1ffd-ae78-4465-8d15-bfb6e1830b25"},"_invert":true,"$type":"NodeCanvas.Tasks.Conditions.CheckNull"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"variable":{"_name":"LightTower","_targetVariableID":"ff2e1ffd-ae78-4465-8d15-bfb6e1830b25"},"$type":"NodeCanvas.Tasks.Conditions.CheckNull"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"LightTower":{"_name":"LightTower","_id":"ff2e1ffd-ae78-4465-8d15-bfb6e1830b25","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"ScaneRadius":{"_value":1.0,"_name":"ScaneRadius","_id":"2ed64d78-7d3f-42e6-a524-1914db2f50f0","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"speed":{"_value":3.0,"_name":"speed","_id":"16282fc2-cd45-4894-bf7c-3310374dcd51","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"arrivalDistance":{"_value":0.2,"_name":"arrivalDistance","_id":"c2625b0c-0b51-4daf-957f-6a209c4d079f","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"InitalScanRadius":{"_value":1.0,"_name":"InitalScanRadius","_id":"b7d5e991-ea93-4420-b72d-b167d31aa56e","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.33
+    _category: 
+    _comments: 
+    _translation: {x: 466, y: 141}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  _externalSerializationFile: {fileID: 0}

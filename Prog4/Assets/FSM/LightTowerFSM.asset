@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f945e777233a59f4aba40aeca29093a6, type: 3}
+  m_Name: LightTowerFSM
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"light":{"_name":"myLight","_targetVariableID":"2eea4021-9ea5-4824-925f-1a6d660621eb"},"luminosityLevel":20.0,"$type":"NodeCanvas.Tasks.Actions.SetLuminosityAT"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Active","_position":{"x":581.4,"y":322.6},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"light":{"_name":"myLight","_targetVariableID":"2eea4021-9ea5-4824-925f-1a6d660621eb"},"luminosityLevel":1.0,"$type":"NodeCanvas.Tasks.Actions.SetLuminosityAT"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Inactive","_position":{"x":342.4,"y":245.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_conditionList":{"conditions":[]},"_actionList":{"executionMode":1,"actions":[{"variableValue":{"_name":"repairValue","_targetVariableID":"e8469dcd-d6ba-4c2c-af0e-5c43183940f7"},"decreaseRate":-5.0,"$type":"NodeCanvas.Tasks.Actions.DecreaseValueAT"}]},"_position":{"x":456.0,"y":55.0},"$type":"NodeCanvas.StateMachines.OnFSMUpdate"},{"_conditionList":{"conditions":[]},"_actionList":{"executionMode":1,"actions":[{"lightBBP":{"_name":"myLight","_targetVariableID":"2eea4021-9ea5-4824-925f-1a6d660621eb"},"WorkPadBBP":{"_name":"myTransform","_targetVariableID":"16a79274-433c-4f80-8f88-3ef34c72c486"},"$type":"NodeCanvas.Tasks.Actions.InitLightTowerAT"}]},"_position":{"x":149.0,"y":75.0},"$type":"NodeCanvas.StateMachines.OnFSMEnter"}],"connections":[{"_condition":{"threshold":{"_value":5.0},"value":{"_name":"repairValue","_targetVariableID":"e8469dcd-d6ba-4c2c-af0e-5c43183940f7"},"$type":"NodeCanvas.Tasks.Conditions.ValueBelowCT"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"threshold":{"_name":"activeThreshold","_targetVariableID":"82b2ac2f-b17a-41d8-b194-77b92498db62"},"value":{"_name":"repairValue","_targetVariableID":"e8469dcd-d6ba-4c2c-af0e-5c43183940f7"},"_invert":true,"$type":"NodeCanvas.Tasks.Conditions.ValueBelowCT"},"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"myTransform":{"_name":"myTransform","_id":"16a79274-433c-4f80-8f88-3ef34c72c486","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"myLight":{"_name":"myLight","_id":"2eea4021-9ea5-4824-925f-1a6d660621eb","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Light,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.33
+    _category: 
+    _comments: 
+    _translation: {x: 463, y: 162}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  _externalSerializationFile: {fileID: 0}
