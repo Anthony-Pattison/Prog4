@@ -23,7 +23,6 @@ namespace NodeCanvas.Tasks.Actions {
 			if (Input.GetKeyDown(KeyCode.Space))
 			{
 				interupt.value = true;
-				EndAction(true);
             }
         }
 

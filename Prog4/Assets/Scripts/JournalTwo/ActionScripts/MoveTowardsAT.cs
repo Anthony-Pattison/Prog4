@@ -5,10 +5,10 @@ using UnityEngine;
 namespace NodeCanvas.Tasks.Actions {
 	public class MoveTowardsAT : ActionTask {
 
-        public Transform closet;
 		public BBParameter<float> moveSpeed;
         public BBParameter<float> rotationSpeed;
         public BBParameter<float> stoppingDistance;
+		public BBParameter<Transform> closet;
         //Use for initialization. This is called only once in the lifetime of the task.
         //Return null if init was successfull. Return an error string otherwise
         protected override string OnInit() {
@@ -24,10 +24,10 @@ namespace NodeCanvas.Tasks.Actions {
 		//Called once per frame while the action is active.
 		protected override void OnUpdate() {
 			Vector3 Pos = agent.transform.position;
-			Vector3 Destination = Pos - closet.position;
+			Vector3 Destination = Pos - closet.value.position;
 			Quaternion Rotation = Quaternion.LookRotation(Destination);
 			agent.transform.SetPositionAndRotation(agent.transform.position + moveSpeed.value * Time.deltaTime * agent.transform.forward, Quaternion.RotateTowards(agent.transform.rotation, Rotation, rotationSpeed.value * Time.deltaTime));
-			if (Vector3.Distance(Pos, closet.position) < stoppingDistance.value)
+			if (Vector3.Distance(Pos, closet.value.position) < stoppingDistance.value)
 			{
                 EndAction(true);
             }
