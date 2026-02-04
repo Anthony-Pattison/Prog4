@@ -4,10 +4,11 @@ using UnityEngine.InputSystem;
 
 public class ClickToMove : MonoBehaviour
 {
-    public NavMeshAgent navAgent;
+    public NavMeshAgent NavAgent;
     private InputSystem_Actions InputActions;
+    public LayerMask TerrainLayers;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         InputActions = new InputSystem_Actions();
         InputActions.Enable();
@@ -17,13 +18,16 @@ public class ClickToMove : MonoBehaviour
 
     private void OnAttack(InputAction.CallbackContext context)
     {
-        Ray Mouse = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-        if (Physics.Raycast(Mouse, out RaycastHit hit))
+        Ray MouseRay = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+        if (Physics.Raycast(MouseRay, out RaycastHit hit, 1f/0f, TerrainLayers))
         {
-            navAgent.SetDestination(hit.point);
+            NavAgent.SetDestination(hit.point);
         }
     }
 
-
+    private void OnDisable()
+    {
+        InputActions.Player.Attack.performed -= OnAttack;
+        InputActions.Disable();
+    }
 }
