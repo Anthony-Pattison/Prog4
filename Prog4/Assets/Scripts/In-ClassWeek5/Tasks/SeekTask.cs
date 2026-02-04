@@ -16,6 +16,7 @@ namespace NodeCanvas.Tasks.Actions
                 EndAction();
             else
             {
+                agent.transform.LookAt(TargetPositionBBP.value);
                 float distance = Vector3.Distance(agent.transform.position, SeekTargetBBP.value.position);
                 if (distance < SeekRadius)
                 {

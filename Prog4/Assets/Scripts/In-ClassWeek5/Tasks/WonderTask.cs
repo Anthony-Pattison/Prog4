@@ -22,7 +22,7 @@ namespace NodeCanvas.Tasks.Actions
                     TargetPositionBBP.value = hitInfo.position;
                 }
             }
-        }
+        }  
 
         private Vector3 CalculatePosition()
         {
