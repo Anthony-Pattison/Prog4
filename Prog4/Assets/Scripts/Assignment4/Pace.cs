@@ -37,6 +37,11 @@ namespace NodeCanvas.Tasks.Actions {
 		}
 		void ChangeDestination()
 		{
+			if(PacingSpots.value.Count == 1)
+			{
+				EndAction();
+				return;
+			}
 			spot++;
 			if (spot == PacingSpots.value.Count -1)
 			{
