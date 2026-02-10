@@ -6,8 +6,9 @@ namespace NodeCanvas.Tasks.Actions
 {
     public class SearchingGarbage : ActionTask
     {
-        public BBParameter<bool> IsThereFoodBBP;
+        public BBParameter<bool> TrashFull;
         public BBParameter<float> HungerBBP;
+        public BBParameter<bool> FindFoodBBP;
         protected override string OnInit()
         {
             StartCoroutine(LookingForFood());
@@ -15,16 +16,16 @@ namespace NodeCanvas.Tasks.Actions
         }
         protected override void OnUpdate()
         {
-            if (IsThereFoodBBP.value)
+            
+            if (TrashFull.value)
             {
                 EndAction();
             }
-
-            
         }
         protected override void OnStop()
         {
             HungerBBP.value = 100f;
+            FindFoodBBP.value = false;
         }
         IEnumerator LookingForFood()
         {
@@ -46,6 +47,7 @@ namespace NodeCanvas.Tasks.Actions
                     yield return null;
                 }
                 yield return new WaitForSeconds(.05f);
+                FindFoodBBP.value = TrashFull.value;
             }
         }
     }
