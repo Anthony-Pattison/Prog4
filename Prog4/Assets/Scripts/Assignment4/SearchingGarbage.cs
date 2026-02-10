@@ -26,6 +26,7 @@ namespace NodeCanvas.Tasks.Actions
         {
             HungerBBP.value = 100f;
             FindFoodBBP.value = false;
+            TrashFull.value = false;    
         }
         IEnumerator LookingForFood()
         {
@@ -47,7 +48,6 @@ namespace NodeCanvas.Tasks.Actions
                     yield return null;
                 }
                 yield return new WaitForSeconds(.05f);
-                FindFoodBBP.value = TrashFull.value;
             }
         }
     }
