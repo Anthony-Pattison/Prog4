@@ -7,8 +7,8 @@ using UnityEngine.AI;
 namespace NodeCanvas.Tasks.Actions {
 
 	public class Pace : ActionTask {
-		public BBParameter<List<Transform>> PacingSpots;
-        public BBParameter<float> StopDis;
+		public BBParameter<List<Transform>> PacingSpotsBBP;
+        public BBParameter<float> StopDisBBP;
         Transform MovingTowards;
 		NavMeshAgent NavAgent;
 		int spot = 0;
@@ -16,7 +16,7 @@ namespace NodeCanvas.Tasks.Actions {
 		//Return null if init was successfull. Return an error string otherwise
 		protected override string OnInit() {
 			NavAgent = agent.GetComponent<NavMeshAgent>();
-			MovingTowards = PacingSpots.value[spot];
+			MovingTowards = PacingSpotsBBP.value[spot];
 			return null;
 		}
 
@@ -30,24 +30,24 @@ namespace NodeCanvas.Tasks.Actions {
 		//Called once per frame while the action is active.
 		protected override void OnUpdate() {
 			NavAgent.SetDestination(MovingTowards.position);
-			if (Vector3.Distance(agent.transform.position, MovingTowards.position) < StopDis.value) 
+			if (Vector3.Distance(agent.transform.position, MovingTowards.position) < StopDisBBP.value) 
 			{ 
 				ChangeDestination();
 			}
 		}
 		void ChangeDestination()
 		{
-			if(PacingSpots.value.Count == 1)
+			if(PacingSpotsBBP.value.Count == 1)
 			{
 				EndAction();
 				return;
 			}
 			spot++;
-			if (spot == PacingSpots.value.Count -1)
+			if (spot == PacingSpotsBBP.value.Count -1)
 			{
 				spot = 0;
 			}
-            MovingTowards = PacingSpots.value[spot];
+            MovingTowards = PacingSpotsBBP.value[spot];
         }
 		//Called when the task is disabled.
 		protected override void OnStop() {

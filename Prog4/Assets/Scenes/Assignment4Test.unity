@@ -1708,6 +1708,7 @@ MonoBehaviour:
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"StopingDistacne":{"_value":0.7,"_name":"StopingDistacne","_id":"cc8e104e-7629-4098-8c28-966b410d2f93","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Hunger":{"_value":26.0,"_name":"Hunger","_id":"1e4fb1ee-fd4c-4f50-ab17-96cfb6f70898","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FindFood":{"_name":"FindFood","_id":"3970e7cf-0d59-470b-9013-fd96b37c0e19","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"GarbageFull":{"_name":"GarbageFull","_id":"2b8d0798-3a44-41f7-94d4-0081f8f188ea","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
   _objectReferences:
   - {fileID: 0}
@@ -1738,6 +1739,9 @@ MonoBehaviour:
   - _json: '{"_name":"FindFood","_id":"3970e7cf-0d59-470b-9013-fd96b37c0e19","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
+  - _json: '{"_name":"GarbageFull","_id":"2b8d0798-3a44-41f7-94d4-0081f8f188ea","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
 --- !u!114 &1720760009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1751,8 +1755,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"PacingSpots":{"_name":"PacingSpots","_targetVariableID":"0ec33e9a-1eed-427a-922d-e4539de2c807"},"StopDis":{"_name":"StopingDistacne","_targetVariableID":"cc8e104e-7629-4098-8c28-966b410d2f93"},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":0.3215686,"g":1.0,"b":0.4390065,"a":1.0},"_name":"Pacing","_position":{"x":661.0,"y":319.0},"_comment":"Starts
-    the FSM is the default state","$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"PacingSpots":{"_value":[1]},"StopDis":{"_name":"StopingDistacne","_targetVariableID":"cc8e104e-7629-4098-8c28-966b410d2f93"},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"MoveToTrashBin","_position":{"x":881.0,"y":404.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":1055.0,"y":533.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_conditionList":{"conditions":[]},"_actionList":{"executionMode":1,"actions":[{"Hunger":{"_name":"Hunger","_targetVariableID":"1e4fb1ee-fd4c-4f50-ab17-96cfb6f70898"},"FindFood":{"_name":"FindFood","_targetVariableID":"3970e7cf-0d59-470b-9013-fd96b37c0e19"},"$type":"NodeCanvas.Tasks.Actions.CoyoteHunger"}]},"_position":{"x":818.0,"y":132.0},"$type":"NodeCanvas.StateMachines.OnFSMUpdate"}],"connections":[{"_condition":{"valueA":{"_name":"Hunger","_targetVariableID":"1e4fb1ee-fd4c-4f50-ab17-96cfb6f70898"},"checkType":2,"valueB":{"_value":25.0},"$type":"NodeCanvas.Tasks.Conditions.CheckFloat"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
+  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"PacingSpotsBBP":{"_name":"PacingSpots","_targetVariableID":"0ec33e9a-1eed-427a-922d-e4539de2c807"},"StopDisBBP":{"_name":"StopingDistacne","_targetVariableID":"cc8e104e-7629-4098-8c28-966b410d2f93"},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":0.3215686,"g":1.0,"b":0.4390065,"a":1.0},"_name":"Pacing","_position":{"x":661.0,"y":319.0},"_comment":"Starts
+    the FSM is the default state","$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"PacingSpotsBBP":{"_value":[1]},"StopDisBBP":{"_name":"StopingDistacne","_targetVariableID":"cc8e104e-7629-4098-8c28-966b410d2f93"},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"MoveToTrashBin","_position":{"x":882.0,"y":407.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"IsThereFoodBBP":{"_name":"FindFood","_targetVariableID":"3970e7cf-0d59-470b-9013-fd96b37c0e19"},"HungerBBP":{"_name":"Hunger","_targetVariableID":"1e4fb1ee-fd4c-4f50-ab17-96cfb6f70898"},"$type":"NodeCanvas.Tasks.Actions.SearchingGarbage"}]},"_color":{"r":0.3113208,"g":0.3098523,"b":0.3105979,"a":1.0},"_name":"Search
+    Garbage","_position":{"x":1067.0,"y":528.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_conditionList":{"conditions":[]},"_actionList":{"executionMode":1,"actions":[{"Hunger":{"_name":"Hunger","_targetVariableID":"1e4fb1ee-fd4c-4f50-ab17-96cfb6f70898"},"FindFood":{"_name":"FindFood","_targetVariableID":"3970e7cf-0d59-470b-9013-fd96b37c0e19"},"$type":"NodeCanvas.Tasks.Actions.CoyoteHunger"}]},"_position":{"x":818.0,"y":132.0},"$type":"NodeCanvas.StateMachines.OnFSMUpdate"}],"connections":[{"_condition":{"valueA":{"_name":"Hunger","_targetVariableID":"1e4fb1ee-fd4c-4f50-ab17-96cfb6f70898"},"checkType":2,"valueB":{"_value":25.0},"$type":"NodeCanvas.Tasks.Conditions.CheckFloat"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"FindFood","_targetVariableID":"3970e7cf-0d59-470b-9013-fd96b37c0e19"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
   - {fileID: 516002532}
@@ -1760,7 +1765,7 @@ MonoBehaviour:
     _version: 3.33
     _category: 
     _comments: 
-    _translation: {x: 21, y: 24}
+    _translation: {x: -53, y: 15}
     _zoomFactor: 1
   _firstActivation: 0
   _enableAction: 0
