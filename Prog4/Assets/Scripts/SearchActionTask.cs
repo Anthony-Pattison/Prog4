@@ -29,6 +29,7 @@ namespace NodeCanvas.Tasks.Actions{
 			if(!NavMesh.SamplePosition(randomPosition, out navMeshHit,randomPositionDistance * 2, NavMesh.AllAreas))
 			{
 				Debug.Log("Could not generate a path.");
+				EndAction();
 			}
 			else
 			{
