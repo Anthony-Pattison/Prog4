@@ -9,7 +9,7 @@ namespace NodeCanvas.Tasks.Actions {
         public BBParameter<bool> GarbageFull;
         protected override void OnExecute()
         {
-            CoyoteBBP.SetVariableValue("GarbageFull", false);
+            //CoyoteBBP.SetVariableValue("GarbageFull", false);
             base.OnExecute();
         }
         protected override void OnUpdate()
