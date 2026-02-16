@@ -1,6 +1,5 @@
 using UnityEngine;
 using NodeCanvas.Framework;
-using System.Runtime.ExceptionServices;
 using System.Collections;
 namespace NodeCanvas.Tasks.Actions
 {
@@ -9,9 +8,10 @@ namespace NodeCanvas.Tasks.Actions
         public BBParameter<bool> TrashFull;
         public BBParameter<float> HungerBBP;
         public BBParameter<bool> FindFoodBBP;
+        Coroutine Search;
         protected override string OnInit()
         {
-            StartCoroutine(LookingForFood());
+            Search = StartCoroutine(LookingForFood());
             return base.OnInit();
         }
         protected override void OnUpdate()
@@ -24,6 +24,7 @@ namespace NodeCanvas.Tasks.Actions
         }
         protected override void OnStop()
         {
+            StopCoroutine(Search);
             HungerBBP.value = 100f;
             FindFoodBBP.value = false;
             TrashFull.value = false;    
