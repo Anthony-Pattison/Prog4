@@ -23,32 +23,35 @@ namespace NodeCanvas.Tasks.Actions{
 		//Call EndAction() to mark the action as finished, either in success or failure.
 		//EndAction can be called from anywhere.
 		protected override void OnExecute(){
-			Vector3 randomPosition = randomPositionDistance * Random.insideUnitSphere + agent.transform.position;
-			NavMeshHit navMeshHit = new NavMeshHit();
-			//Choose a random destination
-			if(!NavMesh.SamplePosition(randomPosition, out navMeshHit,randomPositionDistance * 2, NavMesh.AllAreas))
-			{
-				Debug.Log("Could not generate a path.");
-				EndAction();
-			}
-			else
-			{
-				//Set the path
-				destination = navMeshHit.position;
+			SetNewPath();
+
+        }
+		void SetNewPath()
+		{
+            Vector3 randomPosition = randomPositionDistance * Random.insideUnitSphere + agent.transform.position;
+            NavMeshHit navMeshHit = new NavMeshHit();
+            //Choose a random destination
+            if (!NavMesh.SamplePosition(randomPosition, out navMeshHit, randomPositionDistance * 2, NavMesh.AllAreas))
+            {
+                Debug.Log("Could not generate a path.");
+                EndAction();
+            }
+            else
+            {
+                //Set the path
+                destination = navMeshHit.position;
 
                 navmeshAgent.SetDestination(destination);
             }
-
         }
-
 		//Called once per frame while the action is active.
 		protected override void OnUpdate(){
 			float distanceToTarget = Vector3.Distance(destination, agent.transform.position);
 			if(navmeshAgent.pathStatus == NavMeshPathStatus.PathComplete &&
                  distanceToTarget < arrivalDistance)
 			{
-				EndAction(true);
-			}
+				SetNewPath();
+            }
 		}
 
 		//Called when the task is disabled.
