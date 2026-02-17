@@ -11,7 +11,7 @@ namespace NodeCanvas.Tasks.Actions
         {
             if (!FindFoodBBP.value)
             {
-                HungerBBP.value -= Time.deltaTime;
+                HungerBBP.value -= 3 * Time.deltaTime;
             }
         }
     }
