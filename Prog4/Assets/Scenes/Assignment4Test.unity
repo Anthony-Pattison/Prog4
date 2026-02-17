@@ -150,7 +150,7 @@ Transform:
   m_Children:
   - {fileID: 1795684175}
   m_Father: {fileID: 1554485399}
-  m_LocalEulerAnglesHint: {x: -16.48649, y: 3.506004, z: -4.8369083}
+  m_LocalEulerAnglesHint: {x: 76.43598, y: -9.697146, z: 2.5303662}
 --- !u!1 &35781047
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +182,7 @@ Transform:
   m_Children:
   - {fileID: 1384453545}
   m_Father: {fileID: 1964120881}
-  m_LocalEulerAnglesHint: {x: -0.45846853, y: -3.2638342e-10, z: 0.00000008257634}
+  m_LocalEulerAnglesHint: {x: 19.664951, y: -0.0000007654867, z: -0.0000040959862}
 --- !u!1 &81071385
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,7 +285,7 @@ Transform:
   m_Children:
   - {fileID: 1346123595}
   m_Father: {fileID: 1730607710}
-  m_LocalEulerAnglesHint: {x: 25.009798, y: 5.1179132, z: 10.938685}
+  m_LocalEulerAnglesHint: {x: 70.04909, y: 34.58446, z: 33.855408}
 --- !u!1 &158250606
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ Transform:
   m_Children:
   - {fileID: 720976535}
   m_Father: {fileID: 995188591}
-  m_LocalEulerAnglesHint: {x: -9.641953, y: -26.370686, z: 37.946224}
+  m_LocalEulerAnglesHint: {x: 11.9616375, y: 12.164166, z: -21.309608}
 --- !u!1 &202085011
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,7 +975,7 @@ Transform:
   m_Children:
   - {fileID: 2070511100}
   m_Father: {fileID: 732116441}
-  m_LocalEulerAnglesHint: {x: -6.7767997, y: 3.3076465, z: -51.9924}
+  m_LocalEulerAnglesHint: {x: -6.7768016, y: 3.307646, z: -51.9924}
 --- !u!1 &516002531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,7 +1396,7 @@ Transform:
   m_Children:
   - {fileID: 571761398}
   m_Father: {fileID: 158250607}
-  m_LocalEulerAnglesHint: {x: 6.5443172, y: -25.21125, z: 28.68487}
+  m_LocalEulerAnglesHint: {x: 0.0056517073, y: -0.00000009528705, z: -0.00000022866658}
 --- !u!1 &732116440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,7 +1429,7 @@ Transform:
   - {fileID: 1616412043}
   - {fileID: 507978302}
   m_Father: {fileID: 978551100}
-  m_LocalEulerAnglesHint: {x: -66.508385, y: -4.7633525e-15, z: -4.7633525e-15}
+  m_LocalEulerAnglesHint: {x: -66.508385, y: -6.4683e-15, z: -6.4683e-15}
 --- !u!1 &737179430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,7 +1794,7 @@ Transform:
   m_Children:
   - {fileID: 158250607}
   m_Father: {fileID: 978551100}
-  m_LocalEulerAnglesHint: {x: -10.552046, y: -3.6606663e-15, z: -3.6606663e-15}
+  m_LocalEulerAnglesHint: {x: -10.552046, y: -4.970929e-15, z: -4.970929e-15}
 --- !u!1 &1189073572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,7 +1949,7 @@ Transform:
   m_Children:
   - {fileID: 1998570550}
   m_Father: {fileID: 1616412043}
-  m_LocalEulerAnglesHint: {x: 1.165666, y: 1.8733711, z: 36.5602}
+  m_LocalEulerAnglesHint: {x: -49.599815, y: -64.499504, z: 68.49153}
 --- !u!1 &1214193490
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,7 +2366,7 @@ Transform:
   m_Children:
   - {fileID: 81071386}
   m_Father: {fileID: 124123400}
-  m_LocalEulerAnglesHint: {x: -21.523937, y: -1.0449057, z: 1.8551371}
+  m_LocalEulerAnglesHint: {x: -56.306316, y: -173.7658, z: 173.02634}
 --- !u!1 &1364082381
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,7 +2469,7 @@ Transform:
   m_Children:
   - {fileID: 2046850607}
   m_Father: {fileID: 35781048}
-  m_LocalEulerAnglesHint: {x: -3.067141, y: -0.000000014803678, z: 0.00000055295277}
+  m_LocalEulerAnglesHint: {x: -3.0671432, y: -0.000000020102629, z: 0.0000007508713}
 --- !u!1 &1415585326
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,7 +2935,7 @@ Transform:
   m_Children:
   - {fileID: 22727297}
   m_Father: {fileID: 1964120881}
-  m_LocalEulerAnglesHint: {x: 71.07967, y: 23.431309, z: 31.057554}
+  m_LocalEulerAnglesHint: {x: 71.07967, y: 23.43131, z: 31.057554}
 --- !u!1 &1563136645
 GameObject:
   m_ObjectHideFlags: 0
@@ -3291,7 +3291,7 @@ Transform:
   m_Children:
   - {fileID: 1202317705}
   m_Father: {fileID: 732116441}
-  m_LocalEulerAnglesHint: {x: 10.922779, y: 179.99994, z: -38.333344}
+  m_LocalEulerAnglesHint: {x: 10.92278, y: 179.99994, z: -38.333344}
 --- !u!1 &1704689530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3559,6 +3559,8 @@ MonoBehaviour:
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"GarbageFull":{"_name":"GarbageFull","_id":"2b8d0798-3a44-41f7-94d4-0081f8f188ea","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"HumanPresent":{"_name":"HumanPresent","_id":"df37b000-04c2-43a2-be90-335c72959f96","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FriendInteraction":{"_name":"FriendInteraction","_id":"19f2bf7e-2559-4b77-8736-3d1bbf1a344f","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"TrashPos":{"_value":[7],"_name":"TrashPos","_id":"e09e4472-1a87-428e-be48-fe81d56d51ce","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
   _objectReferences:
   - {fileID: 0}
@@ -3568,6 +3570,7 @@ MonoBehaviour:
   - {fileID: 1920667888}
   - {fileID: 2039530108}
   - {fileID: 1415585327}
+  - {fileID: 516002532}
   _serializedVariables:
   - _json: '{"_value":[1,2,3,4,5,6],"_name":"PacingSpots","_id":"0ec33e9a-1eed-427a-922d-e4539de2c807","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
@@ -3604,6 +3607,12 @@ MonoBehaviour:
   - _json: '{"_name":"FriendInteraction","_id":"19f2bf7e-2559-4b77-8736-3d1bbf1a344f","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
+  - _json: '{"_value":[1],"_name":"TrashPos","_id":"e09e4472-1a87-428e-be48-fe81d56d51ce","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references:
+    - {fileID: 0}
+    - {fileID: 516002532}
 --- !u!114 &1720760009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3617,21 +3626,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_nestedFSM":{"_value":1},"_position":{"x":291.0,"y":353.0},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"method":{"_baseInfo":"ChangeCoyoteSpeed|SetNavSpeed|System.Void","_paramsInfo":"System.Single"},"parameters":[{"_type":"System.Single","_name":"RunninSpeed","_targetVariableID":"a205c57c-12f6-49ad-b89f-245eada9ef7f"}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}]},"_color":{"r":0.3777187,"g":0.3215686,"b":1.0,"a":1.0},"_name":"Setting
-    Agent Speed","_position":{"x":596.1278,"y":533.8445},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"PacingSpotsBBP":{"_value":[2]},"StopDisBBP":{},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":0.5283019,"g":0.2068352,"b":0.4956788,"a":1.0},"_name":"Hide","_position":{"x":858.0,"y":627.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"actions":[{"method":{"_baseInfo":"ChangeCoyoteSpeed|SetNavSpeed|System.Void","_paramsInfo":"System.Single"},"parameters":[{"_type":"System.Single","_name":"NormalSpeed","_targetVariableID":"1e88346d-e103-409f-9b77-7c672b92ef59"}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"waitTime":{"_value":2.0},"$type":"NodeCanvas.Tasks.Actions.Wait"}]},"_color":{"r":0.2666667,"g":0.227451,"b":0.7098039,"a":1.0},"_name":"Setting
-    Speed and Hiding","_position":{"x":896.0,"y":781.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"3"},{"_actionList":{"executionMode":1,"actions":[{"PacingSpotsBBP":{"_value":[3]},"StopDisBBP":{"_name":"StopingDistacne","_targetVariableID":"cc8e104e-7629-4098-8c28-966b410d2f93"},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Finding
-    Another Coyote","_position":{"x":391.0,"y":159.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"4"},{"_conditionList":{"conditions":[]},"_actionList":{"executionMode":1,"actions":[{"HungerBBP":{"_name":"Hunger","_targetVariableID":"1e4fb1ee-fd4c-4f50-ab17-96cfb6f70898"},"FindFoodBBP":{"_name":"FindFood","_targetVariableID":"3970e7cf-0d59-470b-9013-fd96b37c0e19"},"$type":"NodeCanvas.Tasks.Actions.CoyoteHunger"}]},"_position":{"x":818.0,"y":132.0},"$type":"NodeCanvas.StateMachines.OnFSMUpdate"}],"connections":[{"_condition":{"valueA":{"_name":"HumanPresent","_targetVariableID":"df37b000-04c2-43a2-be90-335c72959f96"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"FriendInteraction","_targetVariableID":"19f2bf7e-2559-4b77-8736-3d1bbf1a344f"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"HumanPresent","_targetVariableID":"df37b000-04c2-43a2-be90-335c72959f96"},"valueB":{},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"food":{"_name":"food","_id":"b0206676-dd82-4f12-9607-8dc4b5015bf9","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_nestedFSM":{"_value":1},"_position":{"x":290.0,"y":353.0},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"method":{"_baseInfo":"ChangeCoyoteSpeed|SetNavSpeed|System.Void","_paramsInfo":"System.Single"},"parameters":[{"_type":"System.Single","_name":"RunninSpeed","_targetVariableID":"a205c57c-12f6-49ad-b89f-245eada9ef7f"}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}]},"_color":{"r":0.3777187,"g":0.3215686,"b":1.0,"a":1.0},"_name":"Setting
+    Agent Speed","_position":{"x":596.1278,"y":533.8445},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"actions":[{"PacingSpotsBBP":{"_value":[2]},"StopDisBBP":{"_name":"StopingDistacne","_targetVariableID":"cc8e104e-7629-4098-8c28-966b410d2f93"},"$type":"NodeCanvas.Tasks.Actions.Pace"},{"animator":3,"$type":"NodeCanvas.Tasks.Actions.PlayHidingAnimationAT"}]},"_color":{"r":0.5283019,"g":0.2068352,"b":0.4956788,"a":1.0},"_name":"Hide","_position":{"x":859.0,"y":628.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"actions":[{"method":{"_baseInfo":"ChangeCoyoteSpeed|SetNavSpeed|System.Void","_paramsInfo":"System.Single"},"parameters":[{"_type":"System.Single","_name":"NormalSpeed","_targetVariableID":"1e88346d-e103-409f-9b77-7c672b92ef59"}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"waitTime":{"_value":2.0},"$type":"NodeCanvas.Tasks.Actions.Wait"}]},"_color":{"r":0.2666667,"g":0.227451,"b":0.7098039,"a":1.0},"_name":"Setting
+    Speed and Hiding","_position":{"x":1047.0,"y":793.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"3"},{"_actionList":{"executionMode":1,"actions":[{"PacingSpotsBBP":{"_value":[4]},"StopDisBBP":{"_name":"StopingDistacne","_targetVariableID":"cc8e104e-7629-4098-8c28-966b410d2f93"},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Finding
+    Another Coyote","_position":{"x":375.1859,"y":193.4466},"$type":"NodeCanvas.StateMachines.ActionState","$id":"4"},{"_conditionList":{"conditions":[]},"_actionList":{"executionMode":1,"actions":[{"HungerBBP":{"_name":"Hunger","_targetVariableID":"1e4fb1ee-fd4c-4f50-ab17-96cfb6f70898"},"FindFoodBBP":{"_name":"FindFood","_targetVariableID":"3970e7cf-0d59-470b-9013-fd96b37c0e19"},"$type":"NodeCanvas.Tasks.Actions.CoyoteHunger"}]},"_position":{"x":818.0,"y":132.0},"$type":"NodeCanvas.StateMachines.OnFSMUpdate"}],"connections":[{"_condition":{"valueA":{"_name":"HumanPresent","_targetVariableID":"df37b000-04c2-43a2-be90-335c72959f96"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"FriendInteraction","_targetVariableID":"19f2bf7e-2559-4b77-8736-3d1bbf1a344f"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"HumanPresent","_targetVariableID":"df37b000-04c2-43a2-be90-335c72959f96"},"valueB":{},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"food":{"_name":"food","_id":"b0206676-dd82-4f12-9607-8dc4b5015bf9","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
   - {fileID: 11400000, guid: e77453858b0b4d444aed910664c212da, type: 2}
   - {fileID: 682152660}
+  - {fileID: 343300374}
   - {fileID: 302155745}
   _boundGraphSource:
     _version: 3.33
     _category: 
     _comments: 
-    _translation: {x: 213, y: -2}
+    _translation: {x: 72, y: 0}
     _zoomFactor: 1
   _firstActivation: 0
   _enableAction: 0
@@ -3684,7 +3694,7 @@ Transform:
   m_Children:
   - {fileID: 124123400}
   m_Father: {fileID: 1964120881}
-  m_LocalEulerAnglesHint: {x: 73.63866, y: -0.6487603, z: -13.144404}
+  m_LocalEulerAnglesHint: {x: 73.63866, y: -0.64876115, z: -13.1444025}
 --- !u!1 &1795684174
 GameObject:
   m_ObjectHideFlags: 0
@@ -3716,7 +3726,7 @@ Transform:
   m_Children:
   - {fileID: 604996776}
   m_Father: {fileID: 22727297}
-  m_LocalEulerAnglesHint: {x: -20.40993, y: 3.119609, z: -8.759222}
+  m_LocalEulerAnglesHint: {x: -51.9764, y: 149.91362, z: -156.88416}
 --- !u!1 &1810337844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,7 +4259,7 @@ Transform:
   - {fileID: 1730607710}
   - {fileID: 1554485399}
   m_Father: {fileID: 1495085422}
-  m_LocalEulerAnglesHint: {x: -67.56539, y: -0.000034504304, z: 0.000032457738}
+  m_LocalEulerAnglesHint: {x: -67.56539, y: -0.000035931276, z: 0.00003315218}
 --- !u!1 &1982603621
 GameObject:
   m_ObjectHideFlags: 0
@@ -4389,7 +4399,7 @@ Transform:
   m_Children:
   - {fileID: 215655099}
   m_Father: {fileID: 2070511100}
-  m_LocalEulerAnglesHint: {x: -36.73291, y: 2.718785, z: -0.7913358}
+  m_LocalEulerAnglesHint: {x: -51.314182, y: 166.69038, z: -172.093}
 --- !u!1 &1998570549
 GameObject:
   m_ObjectHideFlags: 0
@@ -4421,7 +4431,7 @@ Transform:
   m_Children:
   - {fileID: 1196526654}
   m_Father: {fileID: 1202317705}
-  m_LocalEulerAnglesHint: {x: 36.559868, y: -1.3541316, z: 2.0476658}
+  m_LocalEulerAnglesHint: {x: 48.38965, y: 179.5818, z: -179.93138}
 --- !u!1 &2005753607 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 95d5f8910935b3548bcc8f6069d9e5c7, type: 3}
@@ -4490,10 +4500,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _parentBlackboard: {fileID: 0}
   _serializedBlackboard: '{"_variables":{"FriendlyInteraction":{"_name":"FriendlyInteraction","_id":"d99021b4-e59a-4e1e-bbfa-a7d25223afe9","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"StoppingDistance":{"_name":"StoppingDistance","_id":"579c3fa3-ab86-4bc0-afc8-def1f69f59d8","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
   _objectReferences: []
   _serializedVariables:
   - _json: '{"_name":"FriendlyInteraction","_id":"d99021b4-e59a-4e1e-bbfa-a7d25223afe9","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_name":"StoppingDistance","_id":"579c3fa3-ab86-4bc0-afc8-def1f69f59d8","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
 --- !u!114 &2005753612
@@ -4510,7 +4524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
   _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[{"waitTime":{"_value":4.0},"$type":"NodeCanvas.Tasks.Actions.Wait"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Start","_position":{"x":705.0,"y":402.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_actionList":{"executionMode":1,"actions":[{"boolVariable":{"_name":"FriendlyInteraction","_targetVariableID":"d99021b4-e59a-4e1e-bbfa-a7d25223afe9"},"$type":"NodeCanvas.Tasks.Actions.SetBoolean"},{"CoyoteBBP":1,"HumanPresent":{"_name":"FriendlyInteraction","_targetVariableID":"d99021b4-e59a-4e1e-bbfa-a7d25223afe9"},"VaribleName":"FriendInteraction","$type":"NodeCanvas.Tasks.Actions.SetBlackBoardBoolAT"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Set
-    Main Coyote bool","_position":{"x":936.0,"y":561.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"PacingSpotsBBP":{"_value":[2]},"StopDisBBP":{"_value":0.7},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":1249.0,"y":665.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"MainCoyote":3,"$type":"NodeCanvas.Tasks.Conditions.CoyoteReadyForInteractionCT"},"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
+    Main Coyote bool","_position":{"x":936.0,"y":561.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"PacingSpotsBBP":{"_value":[2]},"StopDisBBP":{"_name":"StoppingDistance","_targetVariableID":"579c3fa3-ab86-4bc0-afc8-def1f69f59d8"},"$type":"NodeCanvas.Tasks.Actions.Pace"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":1249.0,"y":665.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"MainCoyote":3,"$type":"NodeCanvas.Tasks.Conditions.CoyoteReadyForInteractionCT"},"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
   - {fileID: 1720760008}
@@ -4670,7 +4684,7 @@ Transform:
   m_Children:
   - {fileID: 1261932134}
   m_Father: {fileID: 1384453545}
-  m_LocalEulerAnglesHint: {x: 26.289383, y: 7.2396555, z: 13.177401}
+  m_LocalEulerAnglesHint: {x: 3.780529, y: -0.8453297, z: -1.3444936}
 --- !u!1 &2070511099
 GameObject:
   m_ObjectHideFlags: 0
@@ -4702,7 +4716,7 @@ Transform:
   m_Children:
   - {fileID: 1988681437}
   m_Father: {fileID: 507978302}
-  m_LocalEulerAnglesHint: {x: 17.52161, y: 26.560549, z: 56.03836}
+  m_LocalEulerAnglesHint: {x: 31.15163, y: 59.661705, z: 72.86205}
 --- !u!1 &2103092457
 GameObject:
   m_ObjectHideFlags: 0
